@@ -1,0 +1,272 @@
+/*
+Original code by: EasyPlesi #1499
+Original cdn: https://dl.dropbox.com/s/663tn15389za4m4/snow.css?dl=1
+Original forum post: https://www.wolvden.com/chatter/topic/14875
+
+Customized by: Vezki #41043
+Customized version is for WDFI - Wolvden Finland #278 -group/lodge use only.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');*/
+
+body {background-image: url("https://media0.giphy.com/media/eiMzTkBCN4lGg/giphy.gif?cid=ecf05e47tw251arlk0xy5feezrtjv9a8w9pd6xykgmaxejd4&rid=giphy.gif&ct=s"), 
+url("https://i.imgur.com/uILkBGR.jpg");
+    background-size: 20%, cover;
+    background-position: left top, center;
+    background-repeat: repeat, no-repeat;
+font-family: 'Forum', cursive;}
+
+h1 {color: #282B30;font-size: 30px;text-align: center;font-family: 'Forum', cursive;}
+h2 {color: #282B30;font-size: 25px;font-family: 'Forum', cursive;font-weight: bold;text-decoration: underline;}
+h3 {color: #282B30 !important;font-size: 25px !important;font-family: 'Forum', cursive;font-weight: bold}
+h4 {color: #282B30 !important;font-size: 20px !important;font-family: 'Forum', cursive;font-weight: bold}
+
+/* Liidersuden nimi*/
+#sidebar h3 {color: #282B30 !important;font-size: 24px !important;font-family: 'Forum', cursive;}
+/* mm. Announcementans -otsikko groupin sivulla*/
+#main .col-5 h4 {color: #282B30 !important;font-size: 25px !important;font-family: 'Forum', cursive;font-weight: bold;text-decoration: underline;}
+
+#main h1:hover{letter-spacing:2px;text-shadow:0 0 5px #fff;transition-duration: 2s;}
+
+#main .order-sm-1 h2{color: #282B30;font-size: 35px;font-family: 'Forum', cursive;font-weight: bold;text-decoration: none;}
+
+#main .row .order-lg-2{
+	background-image: url("https://www.emojiall.com/images/60/skype/1f1eb-1f1ee.png");
+	background-size: 3rem;
+	background-position: inherit;
+    background-repeat: no-repeat;
+}
+
+/*Yritys saada melvinille liehuva lippu
+.sidebar .card-body img{
+    background-image: url("https://cdn.discordapp.com/attachments/620916772442472451/1113438465070215258/flagi.gif");
+}
+*/
+
+#header .navbar-main {
+background-color:rgba(40, 43, 48,.6)!important;
+border: 1px solid #000;
+border-radius: 10px 10px 0 0;
+}
+
+#header .navbar-status {
+background-color: rgba(74, 99, 110, 0.1);
+color: black;
+}
+
+#header .breadcrumb-nav {
+background-color: rgba(119, 148, 160, 0.8);
+color: #000;
+border-top: 1px solid #000!important;
+border-left: 1px solid #000!important;
+border-right: 1px solid #000!important;
+}
+
+#main {
+background: rgba(119, 148, 160, 0.8);
+border-radius: 0px 0px 0px 0px; 
+border-right: 1px solid #000!important;
+border-bottom: 1px solid #000!important;
+}
+
+#sidebar {
+background: rgba(119, 148, 160, 0.8);
+border-left: 1px solid #000!important;
+border-bottom: 1px solid #000!important;
+}
+
+.nav-tabs {
+border-bottom: 1px solid rgba(74, 99, 110, 0.8);
+font-size: 0.9rem;
+font-weight: bold;
+color: rgba(204, 88, 3, 0.8);
+}
+
+.group-news-card{
+    background: rgba(74, 99, 110, 0.8) !important;
+}
+
+#main .card form{
+    background: rgba(74, 99, 110, 0.8) !important;
+	 border-radius: 0px 0px 10px 10px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color: #fff;
+background-color: rgba(74, 99, 110, 1);
+border-radius: 0 0 0 0;
+border: 1px solid #4A636E;
+}
+
+.table {
+    border: 0px solid #636363;
+  }
+  
+.table {
+    border: 0px solid #ffffff;
+    background-color: rgba(91, 114, 124, 0.8);
+    border-radius: 10px 10px 10px 10px;
+    color: black!important;
+}
+
+
+.table th {
+color: white;
+background-color: rgba(73, 99, 110, 1);
+border-radius: 0px 0px 0px 0px;
+}
+
+.table .subheader {
+background-color: rgba(74, 99, 110, 0.4);
+}
+
+.table .left {
+background-color: rgba(74, 99, 110, 1);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(130, 160, 188, 0.4);
+}
+
+.table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background-color: rgba(167, 204, 237, 0.5);
+}
+
+#main .card {
+background-color: rgba(204, 88, 3, 0.0);
+border-radius: 10px 10px 10px 10px; 
+}
+
+.card-img-top {
+border-radius: 10px 10px 0 0;
+}
+
+.card-header {
+border-bottom: 0px solid #636363;
+background-color: rgba(84, 94, 117,0.8)!important;
+border-radius: 0 0 10px 10px;
+}
+
+/* Vasemman sivupalkin tausta */
+#sidebar .card {
+border-radius: 10px;
+background-color: rgba(91,114,124, 0.8);
+border-bottom: 0px #FF9505;
+color: black!important;
+border: 5px double #49636e!important;
+}
+
+/* Energia -mittari */
+.bg-warning {
+background-color: #FDFD96 !important;
+}
+
+
+.bg-primary {
+background-color: #82A0BC !important;
+
+}
+
+.bg-danger {
+background-color: #bc8282 !important;
+}
+
+/* HP-mittari */
+.bg-info {
+background-color: #659cd0 !important;
+}
+
+/* exp - mittari */
+.bg-success {
+background-color: #076700 !important;
+}
+
+/* Mittarien taustavari */
+.progress {
+background-color: #fff !important;
+}
+
+.border-none .card img{
+    border-radius: 50% 0 50% 0;
+}
+
+.featured-wolf img{
+border-radius: 50% 0 50% 0;
+}
+
+div.w-50 > div {
+    border: none!important;
+}
+
+/* Leader-wolfin pääkuva */
+#sidebar #card-user a img {
+border-radius: 25% 0 25% 0!important;
+}
+
+img.border-bottom{
+border-radius: 50% 0 50% 0!important;
+}
+
+img.border-bottom {
+border-bottom: none!important;
+}
+
+/* Alertti värit. Metsästys, scout valmis tms*/
+.alert-success, .alert-info, .alert-danger, .alert-primary {
+color: #fff;
+background-color: #2b3b42;
+border-radius: 10px;
+border: 0px solid black;
+box-shadow:0 0 0px #000;
+}
+
+::-webkit-scrollbar {width: 12px;height: 12px;}
+::-webkit-scrollbar-track {box-shadow: inset 0 0 6px rgba(153,153,153,0.5);border-radius: 0px;background-color: rgba(34, 34, 34, 0.6)!important;}
+::-webkit-scrollbar-thumb {border-radius: 0px;background: #5B727C;box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}
+
+.bg-dark {
+background-color: #2b3b42!important;
+}
+
+.bg-light {
+background-color: #415963!important;
+border: 0px solid #fff!important;
+}
+
+a:link, a:visited {color: #a4b1b6 !important;}
+a:hover {color: #243137 !important;}
+
+.table .bottom, .table tfoot td {
+color: white;
+background-color: #33454d;
+text-align: center;
+}
+
+#main .btn,#sidebar .btn,.btn-primary{
+background:#243137!important;
+border:none;
+border-radius:5px;
+box-shadow:0 0 5px #000;
+color:#fff!important;
+transition:.5s ease;
+width:inherit!important;
+}
+
+#main .btn:hover,#sidebar .btn:hover,.btn-primary:hover{
+box-shadow:0 0 5px #fff;
+text-decoration:none!important;}
+
+.s-chat-message:nth-child(odd) {
+background: #6d828b;
+}
+
+.s-chat-message:nth-child(even) {
+background: #5b727c;
+}
+
+
+.Box1 {background: rgba(91,114,124, 0.8);border: 0px solid black;border-radius: 10px;margin: auto;float: center;height: 200px;width: 100%;padding: 2px;overflow: auto;transition: 1s; text-align: center;}
+.Box2 {background: rgba(91,114,124, 0.8);border: 0px solid black;border-radius: 10px;margin: 10px 10px 10px 10px;float: left;height: 200px;width: 45%;padding: 2px;overflow: auto;transition: 1s;text-align: center;}
+.Box3 {background: rgba(91,114,124, 0.8);border: 0px solid black;border-radius: 10px;margin: 10px;float: right;height: 200px;width: 45%;padding: 2px;overflow: auto;transition: 1s;text-align: center;}
+.Box1:hover, .Box2:hover, .Box3:hover {height: 400px;}
