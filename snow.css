@@ -76,6 +76,16 @@ font-weight: bold;
 color: rgba(204, 88, 3, 0.8);
 }
 
+/*Koristehavut*/
+#main .flowers{
+	margin-top: 0rem;
+}
+
+.align-items-start .flowers{
+    margin-top: 0.5rem !important;
+	margin-bottom: 0.5rem !important;
+}
+
 /*Varaston tavara selektori*/
 #cboItemSelector{
 	background: #33454d !important;
