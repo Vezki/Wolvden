@@ -254,8 +254,10 @@ width:inherit!important;
 }
 
 #main .btn:hover,#sidebar .btn:hover,.btn-primary:hover{
-box-shadow:0 0 5px #fff;
-text-decoration:none!important;}
+    box-shadow:0 0 5px #fff;
+    text-decoration:none!important;
+    z-index: 1 !important;
+}
 
 .s-chat-message:nth-child(odd) {
 background: #6d828b;
