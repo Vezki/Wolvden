@@ -8,7 +8,6 @@ Customized version is for WDFI - Wolvden Finland #278 -group/lodge use only.
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');*/
 
 body {background-image: url("https://media0.giphy.com/media/eiMzTkBCN4lGg/giphy.gif?cid=ecf05e47tw251arlk0xy5feezrtjv9a8w9pd6xykgmaxejd4&rid=giphy.gif&ct=s"), 
 url("https://i.imgur.com/uILkBGR.jpg");
@@ -37,12 +36,6 @@ h4 {color: #282B30 !important;font-size: 20px !important;font-family: 'Forum', c
 	background-position: inherit;
     background-repeat: no-repeat;
 }
-
-/*Yritys saada melvinille liehuva lippu
-.sidebar .card-body img{
-    background-image: url("https://cdn.discordapp.com/attachments/620916772442472451/1113438465070215258/flagi.gif");
-}
-*/
 
 #header .navbar-main {
 background-color:rgba(40, 43, 48,.6)!important;
@@ -81,6 +74,22 @@ border-bottom: 1px solid rgba(74, 99, 110, 0.8);
 font-size: 0.9rem;
 font-weight: bold;
 color: rgba(204, 88, 3, 0.8);
+}
+
+/*Varaston tavara selektori*/
+#cboItemSelector{
+	background: #33454d !important;
+	background-size: auto !important;
+	border-radius: 5px 5px 10px 10px;
+}
+
+#cboItemSelector .col-5{
+	padding-left: 0.5rem !important;
+	margin-top: 0.5rem !important;
+}
+#cboItemSelector .small{
+	padding-right: 0.5rem !important;
+	padding-top: 0.5rem !important;
 }
 
 .group-news-card{
