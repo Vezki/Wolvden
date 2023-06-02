@@ -23,7 +23,7 @@ h4 {color: #282B30 !important;font-size: 20px !important;font-family: 'Forum', c
 
 
 .breadcrumb:after {
-    content: "CSS — orig. by #1499 cust. by #41043";
+    content: "CSS – orig. by #1499 cust. by #41043";
     position:absolute;
     right:35px;
       font-style: italic;
