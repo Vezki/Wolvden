@@ -21,6 +21,15 @@ h2 {color: #282B30;font-size: 25px;font-family: 'Forum', cursive;font-weight: bo
 h3 {color: #282B30 !important;font-size: 25px !important;font-family: 'Forum', cursive;font-weight: bold}
 h4 {color: #282B30 !important;font-size: 20px !important;font-family: 'Forum', cursive;font-weight: bold}
 
+
+.breadcrumb:after {
+    content: "CSS — orig. by #1499 cust. by #41043";
+    position:absolute;
+    right:35px;
+      font-style: italic;
+      color:rgb(255 255 255 / 20%);
+  }  
+
 /* Liidersuden nimi*/
 #sidebar h3 {color: #282B30 !important;font-size: 24px !important;font-family: 'Forum', cursive;}
 /* mm. Announcementans -otsikko groupin sivulla*/
@@ -30,12 +39,25 @@ h4 {color: #282B30 !important;font-size: 20px !important;font-family: 'Forum', c
 
 #main .order-sm-1 h2{color: #282B30;font-size: 35px;font-family: 'Forum', cursive;font-weight: bold;text-decoration: none;}
 
+#main .row .order-lg-2 form::before{
+	content:" Liittymisohje foorumilla " !important;
+	font-size: 1rem;
+}
+
 #main .row .order-lg-2{
 	background-image: url("https://www.emojiall.com/images/60/skype/1f1eb-1f1ee.png");
 	background-size: 3rem;
 	background-position: inherit;
     background-repeat: no-repeat;
 }
+
+/* Media query for screens with a maximum width of 768 pixels (mobile devices) */
+@media only screen and (max-width: 768px) {
+  #main .row .order-lg-2 {
+    background-image: none; /* Hide the background image on mobile */
+  }
+}
+
 
 #header .navbar-main {
 background-color:rgba(40, 43, 48,.6)!important;
@@ -106,9 +128,14 @@ color: rgba(204, 88, 3, 0.8);
     background: rgba(74, 99, 110, 0.8) !important;
 }
 
+
 #main .card form{
     background: rgba(74, 99, 110, 0.8) !important;
 	 border-radius: 0px 0px 10px 10px;
+}
+
+.nav i{
+	color:#ffffff85;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -285,6 +312,7 @@ background: #6d828b;
 .s-chat-message:nth-child(even) {
 background: #5b727c;
 }
+
 
 
 .Box1 {background: rgba(91,114,124, 0.8);border: 0px solid black;border-radius: 10px;margin: auto;float: center;height: 200px;width: 100%;padding: 2px;overflow: auto;transition: 1s; text-align: center;}
