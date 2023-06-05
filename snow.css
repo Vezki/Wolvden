@@ -58,6 +58,32 @@ h4 {color: #282B30 !important;font-size: 20px !important;font-family: 'Forum', c
   }
 }
 
+/*Poll mittarit*/
+.p-0 .bg-warning {
+background-color: #82A0BC !important;
+}
+
+
+.p-0 .bg-primary {
+background-color: #82A0BC !important;
+
+}
+
+.p-0 .bg-danger {
+background-color: #82A0BC !important;
+}
+
+
+.p-0 .bg-info {
+background-color: #82A0BC !important;
+}
+
+
+.p-0 .bg-success {
+background-color: #82A0BC !important;
+}
+
+/*Poll-mittarit paattyy*/
 
 #header .navbar-main {
 background-color:rgba(40, 43, 48,.6)!important;
