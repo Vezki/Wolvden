@@ -160,6 +160,10 @@ color: rgba(204, 88, 3, 0.8);
 	 border-radius: 0px 0px 10px 10px;
 }
 
+#main .card-text{
+	color: #ffff !important;
+}
+
 .nav i{
 	color:#ffffff85;
 }
